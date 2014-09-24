@@ -2,13 +2,21 @@
 <html>
 <head>
   <title>Visitmee</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'bootstrap',  media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="container">
+	<div class="nav">
+		<%= link_to "Home", :controller => 'site', :action => 'home' %> |
+		<%= link_to "About Us", :controller => 'site', :action => 'about' %> |
+		<%= link_to "FAQ", :controller => 'site', :action => 'faq' %> |
 
-<%= yield %>
-<footer>visitMee || cheapest way to travel</footer>
+	</div>
+	<%= yield %>
+	<footer>visitMee || cheapest way to travel</footer>	
+</div>
+
 </body>
 </html>
