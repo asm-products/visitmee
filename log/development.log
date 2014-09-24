@@ -2820,3 +2820,1195 @@ Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 01:33:27 +0545
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 01:33:27 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:34:13 +0545
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 166ms (Views: 150.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2014-09-25 01:34:13 +0545
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (42.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 01:34:13 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 01:34:13 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 01:34:13 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 01:34:13 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-25 01:34:14 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-25 01:34:14 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-25 01:34:14 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 01:34:14 +0545
+
+
+Started GET "/signout" for 127.0.0.1 at 2014-09-25 01:34:16 +0545
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:34:16 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 92ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:37:12 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 88ms (Views: 86.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2014-09-25 01:37:12 +0545
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (41.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:13 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:13 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:13 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:13 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:13 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:13 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:13 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:13 +0545
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2014-09-25 01:37:24 +0545
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQD76-_pNUdegFksttTVVt0Pp3Jeg5TyXqykR338VqJjkrvkoMBXJYQsWQ3hF23OF-dA8Q09YqMV1nSOxHbeeQyeAQCLTncSdVQnW8k8ZpcWwmhDmY9zY6Ca6xV1hbrCk_rcMdc5JHMk-ctu7hy1rDgNeuGpaeMOrgP-tV5p-LVfVBTuaPGFL-9BGOAzUp3B9jCkOOukIfeKJFJAQBJTTv_OlPY68mcuaKTcVLkDgeUbSCGJHsC2vwk9Ucf1YT0CuufQR0nzUiNIPgOvz2U78lVCfa62_dzxDR94HeE0k490N_Q2g0Ae9cGcx8kHKStDWVQ" for 127.0.0.1 at 2014-09-25 01:37:25 +0545
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQD76-_pNUdegFksttTVVt0Pp3Jeg5TyXqykR338VqJjkrvkoMBXJYQsWQ3hF23OF-dA8Q09YqMV1nSOxHbeeQyeAQCLTncSdVQnW8k8ZpcWwmhDmY9zY6Ca6xV1hbrCk_rcMdc5JHMk-ctu7hy1rDgNeuGpaeMOrgP-tV5p-LVfVBTuaPGFL-9BGOAzUp3B9jCkOOukIfeKJFJAQBJTTv_OlPY68mcuaKTcVLkDgeUbSCGJHsC2vwk9Ucf1YT0CuufQR0nzUiNIPgOvz2U78lVCfa62_dzxDR94HeE0k490N_Q2g0Ae9cGcx8kHKStDWVQ", "provider"=>"facebook"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10152227335606486'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["oauth_token", "CAAEtZCQOXrCABABBNo0ERtUgjZCwaMZCvc0XCJp2WKyrhfJ7SQRHBJkJRxd0Us6gPsFSAiwblUia8JynsEy47YwSpq0TouAgZBQGzrMZAED41hWwvWV9wrzvLojCFOBUABo1RKANtJdt51iT4lnIl4sT7jKW3BzCHaZBxglnDYQo6aCgvQsTu3pvRflBZAwQhxE2WQGvsxtx1a3PHZCTKfzE"], ["updated_at", "2014-09-24 19:52:26.953766"]]
+  [1m[35m (253.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 283ms (ActiveRecord: 254.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:37:27 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 94ms (Views: 92.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:27 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:27 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:27 +0545
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2014-09-25 01:37:27 +0545
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.9ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:27 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:27 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:27 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:27 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 01:37:27 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:38:10 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 114ms (Views: 111.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2014-09-25 01:38:10 +0545
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:10 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:10 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:10 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:10 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:10 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:10 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:10 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:10 +0545
+
+
+Started GET "/signout" for 127.0.0.1 at 2014-09-25 01:38:12 +0545
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:38:12 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 94ms (Views: 92.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2014-09-25 01:38:15 +0545
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2014-09-25 01:38:15 +0545
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQAqOkYNCp_1ZTk_8ebI0e0zimc3G9qRDCiNIK_t07TEhLjbvWgFFUurqEyqjo4ND2MhasG6PK81R-EFWXtYQJf3x2FKYUQVBe4_Jn1zF9mtFaK2tDyHSqSvt8EzPD4cjwaCjai3NYof4Nt0r1F_FRBEzcX4e5z74gR0kJ9jWw5frf-gUATrvSqx_AHR8knS9Q2x3y0SxuiG5H_clTeKIIA3BXmpWu2HMash_iYYoD38SOrQxSZunuDV2tgZ3PnHMaBzTd09iHse2bepsVVOzTHwllACAqXJ35CyD-Zk87kvV8wZlBfVHfHx3ckStKVihUo" for 127.0.0.1 at 2014-09-25 01:38:16 +0545
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAqOkYNCp_1ZTk_8ebI0e0zimc3G9qRDCiNIK_t07TEhLjbvWgFFUurqEyqjo4ND2MhasG6PK81R-EFWXtYQJf3x2FKYUQVBe4_Jn1zF9mtFaK2tDyHSqSvt8EzPD4cjwaCjai3NYof4Nt0r1F_FRBEzcX4e5z74gR0kJ9jWw5frf-gUATrvSqx_AHR8knS9Q2x3y0SxuiG5H_clTeKIIA3BXmpWu2HMash_iYYoD38SOrQxSZunuDV2tgZ3PnHMaBzTd09iHse2bepsVVOzTHwllACAqXJ35CyD-Zk87kvV8wZlBfVHfHx3ckStKVihUo", "provider"=>"facebook"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10152227335606486'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "oauth_expires_at" = ?, "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["oauth_expires_at", "2014-11-23 19:05:37.000000"], ["oauth_token", "CAAEtZCQOXrCABAArGleHe9ZC89TAZASafNQwkEgzzx0gsaLKfKUI0bTHZCvb5XytDpB1QIVHb0jfX0ZBjQeDJZChT62Ffefo6Hze7rF2c70rQdpJdEFAU99RgzXbDOAC7434i1ZAbdxVmDqml5Wi7n63qa5IsZBEKS6hd3HE236a3Rugr7XQXdH1IP2XRDwLarbv2ljcZCYlZA50mh2zr3UGU0"], ["updated_at", "2014-09-24 19:53:18.521358"]]
+  [1m[35m (148.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 154ms (ActiveRecord: 149.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:38:18 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 103ms (Views: 101.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:18 +0545
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2014-09-25 01:38:18 +0545
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:18 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:18 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:18 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:18 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:18 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:18 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:18 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:38:41 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 106ms (Views: 103.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2014-09-25 01:38:41 +0545
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:41 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:41 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:41 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:41 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:41 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:41 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:41 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:41 +0545
+
+
+Started GET "/signout" for 127.0.0.1 at 2014-09-25 01:38:44 +0545
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:38:44 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 106ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2014-09-25 01:38:45 +0545
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2014-09-25 01:38:45 +0545
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQCIzaJZfvcJ_vw_-8nwVKLWdaZG1xJNZiUcgZX9w2-ODhQNKpyawcGhZm69DQYQ5riBbOCnolCbgcajt-e4wXiuLVfauPReLlfCYRImTUalDYsnYg5B0w_Nk2xN52YADbJJJmZtP3pdZUaOAasitF9RzzcHVMK99xpy3ref845gec5mZ3ZdVYAiH3xzqu66pqEAdDwd0eFJVOb5Y0Oftrtys08Me_6pNmNqQ21mSmDdzz8t9-QA8xBjNAMqFuVIc0QX9LM03jdZEtKCWaPzz2S1CTch8PSnXvngIqCgcdqdlYn459bQtJsPzmYV2klX6s8" for 127.0.0.1 at 2014-09-25 01:38:46 +0545
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCIzaJZfvcJ_vw_-8nwVKLWdaZG1xJNZiUcgZX9w2-ODhQNKpyawcGhZm69DQYQ5riBbOCnolCbgcajt-e4wXiuLVfauPReLlfCYRImTUalDYsnYg5B0w_Nk2xN52YADbJJJmZtP3pdZUaOAasitF9RzzcHVMK99xpy3ref845gec5mZ3ZdVYAiH3xzqu66pqEAdDwd0eFJVOb5Y0Oftrtys08Me_6pNmNqQ21mSmDdzz8t9-QA8xBjNAMqFuVIc0QX9LM03jdZEtKCWaPzz2S1CTch8PSnXvngIqCgcdqdlYn459bQtJsPzmYV2klX6s8", "provider"=>"facebook"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10152227335606486'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "oauth_expires_at" = ?, "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["oauth_expires_at", "2014-11-23 19:05:36.000000"], ["oauth_token", "CAAEtZCQOXrCABAMRRwN0HrJH81zl8LrvAsZAb7jXz6ISM0tN21gVQA4m0RiEOZAtgFOZAqvOCNhqy92AmpexejTYbxwXVqtQKgRCrZA7x4qMd355v8211SwpvUmYWbkrVUzFYqZBQmCnptAAReyzplEQAsevloTS8AlZAk92aJjyZBhC3PSqIhffc8eLOm587sSwfXbFFTiZCb5Gh9sfUGbCG"], ["updated_at", "2014-09-24 19:53:48.770598"]]
+  [1m[35m (166.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 177ms (ActiveRecord: 168.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:38:48 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 96ms (Views: 93.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:49 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:49 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:49 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:49 +0545
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2014-09-25 01:38:49 +0545
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.9ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:49 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:49 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:49 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 01:38:49 +0545
+
+
+Started GET "/site/faq" for 127.0.0.1 at 2014-09-25 01:38:52 +0545
+Processing by SiteController#faq as HTML
+  Rendered site/faq.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 125ms (Views: 122.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:38:54 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 102ms (Views: 100.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2014-09-25 01:38:55 +0545
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:38:55 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 113ms (Views: 111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:53:36 +0545
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 143ms (Views: 128.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2014-09-25 01:53:36 +0545
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:36 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:36 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:36 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:36 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:36 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:36 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:36 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:36 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:53:46 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 97ms (Views: 95.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2014-09-25 01:53:46 +0545
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:46 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:46 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:46 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:46 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:46 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:46 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:46 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 01:53:46 +0545
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2014-09-25 01:53:50 +0545
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQDX2R-iw3ciRX_fRhMcqOLo4tsGlDMLb5jr8FfAucPi_KKgOuDRitGqrl1OxchCeLcDXxdXzPrNecN8RsEP1jHJSAkA4zw-G0i-ZN030DpjyWbXA-hAfEGhQAlRC3FoGI2t_su82Vkx6IIon58487xVgea08PiBkU7WYdyOeKmvf7eSC7q4vA43SEheSrWXrdUDHMzXxN3zqBFGz2Um_1RVniEIbICIBYUlR_wOINopZlsxp5YgIF01GNVHq8Otkjm_R6UIUTa7Lto_lOUZB6AwWwA3NGhfhzXzEdKsZYbhHzQv4vheIC-xEE77BlpHh-w" for 127.0.0.1 at 2014-09-25 01:54:12 +0545
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDX2R-iw3ciRX_fRhMcqOLo4tsGlDMLb5jr8FfAucPi_KKgOuDRitGqrl1OxchCeLcDXxdXzPrNecN8RsEP1jHJSAkA4zw-G0i-ZN030DpjyWbXA-hAfEGhQAlRC3FoGI2t_su82Vkx6IIon58487xVgea08PiBkU7WYdyOeKmvf7eSC7q4vA43SEheSrWXrdUDHMzXxN3zqBFGz2Um_1RVniEIbICIBYUlR_wOINopZlsxp5YgIF01GNVHq8Otkjm_R6UIUTa7Lto_lOUZB6AwWwA3NGhfhzXzEdKsZYbhHzQv4vheIC-xEE77BlpHh-w", "provider"=>"facebook"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10152227335606486'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["oauth_token", "CAAEtZCQOXrCABAEih8tZCKZC4R6jyAQ6Pk6xZBmRMqlz7523FLgFhxlaRXExup7I904M3VCQ13WSfzyxJM3huOInLGORtarOnhYq9ZCLy8rucoYaWJguYXnGaqtcFNYFTLC71vKtqCtjgRv2GfCq8paz5LpCMgAI4kx2idsc9XKCl7DShMZC9GsCYw4AjXP2qUrNqUrxCTfgQGozr5Jtfm"], ["updated_at", "2014-09-24 20:09:14.767584"]]
+  [1m[36m (201.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 251ms (ActiveRecord: 203.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:54:14 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 118ms (Views: 116.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2014-09-25 01:54:15 +0545
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:15 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:15 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:15 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:15 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:15 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:15 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:15 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:15 +0545
+
+
+Started GET "/signout" for 127.0.0.1 at 2014-09-25 01:54:18 +0545
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:54:18 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 97ms (Views: 95.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2014-09-25 01:54:36 +0545
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQCaHmlITzO1ShPYDykalozkUqxb-7lkVWoJtKd-LsDly11E1Gh4SpZdKxXPy3mq8bFXgEinAmji8KaGnH30huLVaTJhM8qdJVJkBLfSH3pysOuslx6q7BeRfTLBV7YsFm2HIH70xhnSmpijl0Y3MfBA4IUHk0GDq3FLPqzla3Ydhm-552tSm9iaIjvMVyYoZpr-1gY-_EHqinotxaj0g8F8OFWoZIv90CedANwoYGA5F5c_WE_L3VX6i0oXCu7LEiodDRppc80z_j5lqRohpiYfuXN9pUjVb3w4i90mr0xkNTQy8KjeMeHtaaQAUaCLR-I" for 127.0.0.1 at 2014-09-25 01:54:37 +0545
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCaHmlITzO1ShPYDykalozkUqxb-7lkVWoJtKd-LsDly11E1Gh4SpZdKxXPy3mq8bFXgEinAmji8KaGnH30huLVaTJhM8qdJVJkBLfSH3pysOuslx6q7BeRfTLBV7YsFm2HIH70xhnSmpijl0Y3MfBA4IUHk0GDq3FLPqzla3Ydhm-552tSm9iaIjvMVyYoZpr-1gY-_EHqinotxaj0g8F8OFWoZIv90CedANwoYGA5F5c_WE_L3VX6i0oXCu7LEiodDRppc80z_j5lqRohpiYfuXN9pUjVb3w4i90mr0xkNTQy8KjeMeHtaaQAUaCLR-I", "provider"=>"facebook"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10152227335606486'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "oauth_token" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["oauth_token", "CAAEtZCQOXrCABAEpxlyuto9sxLyyLJW9tYZBegGTn2W80EZCsBytZCJknlBqj2tentLA3XdCBLk7uUfnZAGf1ch58LnXSRtTqwZA0FQyYDVLWiVeVCJcWBEeL0b3b9wDL7DNicyhOe4TzIcUivND6NBT1GojQhRLp5cMdsq7xdNzmBGNRl8qi9qy3ZAKZAjV214CfhwTs2cwe3txr50ntnDe"], ["updated_at", "2014-09-24 20:09:38.938118"]]
+  [1m[35m (333.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 343ms (ActiveRecord: 335.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:54:39 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 97ms (Views: 95.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:39 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:39 +0545
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2014-09-25 01:54:39 +0545
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.8ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.2ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:39 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:39 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:39 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:39 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:39 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 01:54:39 +0545
+
+
+Started GET "/signout" for 127.0.0.1 at 2014-09-25 01:54:46 +0545
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 01:54:46 +0545
+Processing by SiteController#home as HTML
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 91ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 02:56:25 +0545
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (undefined local variable or method `request' for ApplicationController:Class):
+  app/controllers/application_controller.rb:4:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/site_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.1ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (44.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 02:57:03 +0545
+
+ActionController::RoutingError (undefined local variable or method `request' for ApplicationController:Class):
+  app/controllers/application_controller.rb:4:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/site_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 02:57:09 +0545
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (undefined local variable or method `request' for ApplicationController:Class):
+  app/controllers/application_controller.rb:4:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/site_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.8ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (42.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 02:59:14 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 151ms (Views: 135.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2014-09-25 02:59:14 +0545
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 02:59:15 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-25 02:59:15 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 02:59:15 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 02:59:15 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-25 02:59:15 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-25 02:59:15 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 02:59:15 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 02:59:15 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 03:00:15 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 89ms (Views: 88.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:15 +0545
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2014-09-25 03:00:15 +0545
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:16 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:16 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:16 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:16 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:16 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:16 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:16 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 03:00:18 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 94ms (Views: 92.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2014-09-25 03:00:18 +0545
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:18 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:18 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:18 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:18 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:18 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:18 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:18 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:18 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 03:00:43 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 126ms (Views: 124.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2014-09-25 03:00:43 +0545
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:43 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:43 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:43 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:43 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:43 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:43 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:43 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-25 03:00:43 +0545

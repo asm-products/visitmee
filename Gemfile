@@ -44,3 +44,6 @@ gem 'omniauth'
 gem 'omniauth-facebook', '1.4.0'
 # gem 'omniauth-twitter'
 # gem 'omniauth-linkedin'
+
+
+gem 'geokit-rails'
