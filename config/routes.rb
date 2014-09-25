@@ -7,14 +7,7 @@ Rails.application.routes.draw do
 
   # devise_for :users, :controllers => { omniauth_callbacks: 'omniauth_callbacks' }
   
-
-  get 'user/index'
-
-  get 'user/create'
-
-  get 'user/new'
-
-  get 'user/delete'
+  resource 'users'
 
   root 'site#home'
   get 'site/home'

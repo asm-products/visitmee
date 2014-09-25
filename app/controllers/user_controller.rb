@@ -1,4 +1,8 @@
 class UserController < ApplicationController
+
+  def user
+    @title = "Welcome user"
+  end
   def index
   end
 
