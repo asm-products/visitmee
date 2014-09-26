@@ -39,11 +39,11 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-# gem 'devise'
+gem 'devise'
 gem 'omniauth'
 gem 'omniauth-facebook', '1.4.0'
-# gem 'omniauth-twitter'
-# gem 'omniauth-linkedin'
+gem 'omniauth-twitter'
+gem 'omniauth-linkedin'
 
 
 gem 'geokit-rails'

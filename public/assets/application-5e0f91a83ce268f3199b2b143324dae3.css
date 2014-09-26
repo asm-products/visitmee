@@ -10,10 +10,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
- */
 
- body {
- 	background: url('images/background.jpg');
- }
+
+ */
+/* line 17, /home/bishisht/work/assembly/visitmee/app/assets/stylesheets/application.css.scss */
+#body {
+  background: url("images/background.jpg");
+}
