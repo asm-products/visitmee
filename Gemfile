@@ -47,3 +47,5 @@ gem 'omniauth-linkedin'
 
 
 gem 'geokit-rails'
+
+gem 'better_errors'
