@@ -5282,3 +5282,978 @@ Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-26 22:35:43 +0545
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-26 22:35:43 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-27 01:43:54 +0545
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 448ms (Views: 411.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-27 01:43:54 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 01:43:54 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-27 01:43:54 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 01:43:54 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 01:43:54 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-27 01:43:54 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-27 01:43:54 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-27 01:43:54 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 01:43:54 +0545
+
+
+Started GET "/auth/twitter/" for 127.0.0.1 at 2014-09-27 01:43:57 +0545
+
+ActionController::RoutingError (No route matches [GET] "/auth/twitter"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (46.4ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (93.6ms)
+
+
+Started GET "/auth/twitter/" for 127.0.0.1 at 2014-09-27 01:43:57 +0545
+
+ActionController::RoutingError (No route matches [GET] "/auth/twitter"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.3ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-27 01:44:43 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 81ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-27 01:44:43 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 01:44:43 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 01:44:43 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 01:44:43 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 01:44:43 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-27 01:44:43 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-27 01:44:43 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-27 01:44:43 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-27 01:44:43 +0545
+
+
+Started GET "/auth/twitter/" for 127.0.0.1 at 2014-09-27 01:44:45 +0545
+
+ActionController::RoutingError (No route matches [GET] "/auth/twitter"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.4ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.7ms)
+
+
+Started GET "/auth/twitter/" for 127.0.0.1 at 2014-09-27 01:44:45 +0545
+
+ActionController::RoutingError (No route matches [GET] "/auth/twitter"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (30.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (66.6ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-09-27 01:46:26 +0545
+Processing by Devise::RegistrationsController#new as HTML
+Geokit is using the domain: localhost
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/devise-3.3.0/app/views/devise/shared/_links.erb (4.9ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/devise-3.3.0/app/views/devise/registrations/new.html.erb within layouts/application (143.2ms)
+Completed 500 Internal Server Error in 261ms
+
+ActionView::Template::Error (No route matches {:action=>"home", :controller=>"devise/site"}):
+     9: <body>
+    10: <div class="container">
+    11: 	<div class="nav">
+    12: 		<%= link_to "Home", :controller => 'site', :action => 'home' %> |
+    13: 		<%= link_to "About Us", :controller => 'site', :action => 'about' %> |
+    14: 		<%= link_to "FAQ", :controller => 'site', :action => 'faq' %> |
+    15: 
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__479594332_92872790'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-27 01:46:47 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 119ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-27 01:46:47 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-27 01:46:47 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-27 01:46:47 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-27 01:46:47 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-27 01:46:47 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-27 01:46:47 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-27 01:46:47 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-27 01:46:47 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-27 01:46:47 +0545
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_identities_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_identities_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_profiles_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_profiles_on_user_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-09-27 01:47:35 +0545
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::RegistrationsController#new as HTML
+Geokit is using the domain: localhost
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/devise-3.3.0/app/views/devise/shared/_links.erb (3.4ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/devise-3.3.0/app/views/devise/registrations/new.html.erb within layouts/application (51.9ms)
+Completed 500 Internal Server Error in 219ms
+
+ActionView::Template::Error (No route matches {:action=>"home", :controller=>"devise/site"}):
+     9: <body>
+    10: <div class="container">
+    11: 	<div class="nav">
+    12: 		<%= link_to "Home", :controller => 'site', :action => 'home' %> |
+    13: 		<%= link_to "About Us", :controller => 'site', :action => 'about' %> |
+    14: 		<%= link_to "FAQ", :controller => 'site', :action => 'faq' %> |
+    15: 
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___924392829_94426160'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-09-27 01:48:20 +0545
+Processing by Devise::RegistrationsController#new as HTML
+Geokit is using the domain: localhost
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/devise-3.3.0/app/views/devise/shared/_links.erb (1.8ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/devise-3.3.0/app/views/devise/registrations/new.html.erb within layouts/application (20.0ms)
+Completed 500 Internal Server Error in 102ms
+
+ActionView::Template::Error (No route matches {:action=>"home", :controller=>"devise/site"}):
+     9: <body>
+    10: <div class="container">
+    11: 	<div class="nav">
+    12: 		<%= link_to "Home", :controller => 'site', :action => 'home' %> |
+    13: 		<%= link_to "About Us", :controller => 'site', :action => 'about' %> |
+    14: 		<%= link_to "FAQ", :controller => 'site', :action => 'faq' %> |
+    15: 
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___924392829_94426160'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-09-27 01:49:04 +0545
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::RegistrationsController#new as HTML
+Geokit is using the domain: localhost
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/devise-3.3.0/app/views/devise/shared/_links.erb (3.4ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/devise-3.3.0/app/views/devise/registrations/new.html.erb within layouts/application (50.6ms)
+Completed 500 Internal Server Error in 213ms
+
+ActionView::Template::Error (No route matches {:action=>"home", :controller=>"devise/site"}):
+     9: <body>
+    10: <div class="container">
+    11: 	<div class="nav">
+    12: 		<%= link_to "Home", :controller => "site", :action => 'home' %> |
+    13: 		<%= link_to "About Us", :controller => 'site', :action => 'about' %> |
+    14: 		<%= link_to "FAQ", :controller => 'site', :action => 'faq' %> |
+    15: 
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__1024106446_100118170'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.8ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-09-27 01:49:05 +0545
+Processing by Devise::RegistrationsController#new as HTML
+Geokit is using the domain: localhost
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/devise-3.3.0/app/views/devise/shared/_links.erb (1.7ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/devise-3.3.0/app/views/devise/registrations/new.html.erb within layouts/application (11.3ms)
+Completed 500 Internal Server Error in 93ms
+
+ActionView::Template::Error (No route matches {:action=>"home", :controller=>"devise/site"}):
+     9: <body>
+    10: <div class="container">
+    11: 	<div class="nav">
+    12: 		<%= link_to "Home", :controller => "site", :action => 'home' %> |
+    13: 		<%= link_to "About Us", :controller => 'site', :action => 'about' %> |
+    14: 		<%= link_to "FAQ", :controller => 'site', :action => 'faq' %> |
+    15: 
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__1024106446_100118170'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.8ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-09-27 01:49:06 +0545
+Processing by Devise::RegistrationsController#new as HTML
+Geokit is using the domain: localhost
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/devise-3.3.0/app/views/devise/shared/_links.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/devise-3.3.0/app/views/devise/registrations/new.html.erb within layouts/application (7.7ms)
+Completed 500 Internal Server Error in 124ms
+
+ActionView::Template::Error (No route matches {:action=>"home", :controller=>"devise/site"}):
+     9: <body>
+    10: <div class="container">
+    11: 	<div class="nav">
+    12: 		<%= link_to "Home", :controller => "site", :action => 'home' %> |
+    13: 		<%= link_to "About Us", :controller => 'site', :action => 'about' %> |
+    14: 		<%= link_to "FAQ", :controller => 'site', :action => 'faq' %> |
+    15: 
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__1024106446_100118170'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.6ms)
+
+
+Started GET "/auth/facebook/" for 127.0.0.1 at 2014-09-27 01:49:25 +0545
+
+ActionController::RoutingError (No route matches [GET] "/auth/facebook"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.6ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:44:02 +0545
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 600ms (Views: 576.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-29 03:44:03 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-29 03:44:03 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-29 03:44:03 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-29 03:44:03 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-29 03:44:03 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-29 03:44:03 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-29 03:44:03 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-29 03:44:03 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-29 03:44:03 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:48:24 +0545
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 62ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    3: <head>
+    4:   <title>
+    5:     <%= @title 
+    6:       if @title.length> 0
+    7:         puts "-"
+    8:       end
+    9:       -%>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__448815654_93252720'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:48:50 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    3: <head>
+    4:   <title>
+    5:     <%= @title 
+    6:       if (@title.length> 0)
+    7:         puts "-"
+    8:       end
+    9:       -%>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__448815654_92646840'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:48:51 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    3: <head>
+    4:   <title>
+    5:     <%= @title 
+    6:       if (@title.length> 0)
+    7:         puts "-"
+    8:       end
+    9:       -%>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__448815654_92646840'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:49:58 +0545
+
+SyntaxError (/home/bishisht/work/assembly/visitmee/app/helpers/application_helper.rb:6: syntax error, unexpected keyword_self, expecting ')'
+	def return_title(self.title)
+	                     ^
+/home/bishisht/work/assembly/visitmee/app/helpers/application_helper.rb:6: syntax error, unexpected ')', expecting keyword_end
+/home/bishisht/work/assembly/visitmee/app/helpers/application_helper.rb:13: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/site_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:50:10 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    3: <head>
+    4:   <title>
+    5:     <%= @title 
+    6:       if (@title.length> 0)
+    7:         puts "-"
+    8:       end
+    9:       -%>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__448815654_92646840'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:50:39 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    2: <html>
+    3: <head>
+    4:   <title>
+    5:     <%= return_title %>
+    6:   Visitmee
+    7:   </title>
+    8:   <%= stylesheet_link_tag    'bootstrap',   media: 'all', 'data-turbolinks-track' => true %>
+  app/helpers/application_helper.rb:6:in `return_title'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__448815654_93317210'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:50:46 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 155ms (Views: 154.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-29 03:50:46 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-29 03:50:46 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-29 03:50:46 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-29 03:50:46 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-29 03:50:46 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-29 03:50:46 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-29 03:50:46 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-29 03:50:46 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-29 03:50:46 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:51:02 +0545
+
+SyntaxError (/home/bishisht/work/assembly/visitmee/app/helpers/application_helper.rb:6: formal argument cannot be an instance variable
+	def return_title(@title)
+	                       ^):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/site_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:51:29 +0545
+
+SyntaxError (/home/bishisht/work/assembly/visitmee/app/helpers/application_helper.rb:6: syntax error, unexpected keyword_self, expecting ')'
+	def return_title(self.@title)
+	                     ^
+/home/bishisht/work/assembly/visitmee/app/helpers/application_helper.rb:13: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/site_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:51:40 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    2: <html>
+    3: <head>
+    4:   <title>
+    5:     <%= return_title(@title) %>
+    6:   Visitmee
+    7:   </title>
+    8:   <%= stylesheet_link_tag    'bootstrap',   media: 'all', 'data-turbolinks-track' => true %>
+  app/helpers/application_helper.rb:6:in `return_title'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__448815654_92731230'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:51:47 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    2: <html>
+    3: <head>
+    4:   <title>
+    5:     <%= return_title(@title) %>
+    6:   Visitmee
+    7:   </title>
+    8:   <%= stylesheet_link_tag    'bootstrap',   media: 'all', 'data-turbolinks-track' => true %>
+  app/helpers/application_helper.rb:6:in `return_title'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__448815654_92731230'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:51:57 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 106ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-29 03:51:57 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-29 03:51:57 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-29 03:51:57 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-29 03:51:57 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-29 03:51:57 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-29 03:51:57 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-29 03:51:57 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-29 03:51:57 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-29 03:51:57 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:52:39 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 86ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-29 03:52:39 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:39 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:39 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:39 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:39 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:39 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:40 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:40 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:40 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:52:41 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 85ms (Views: 83.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-29 03:52:41 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:41 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:41 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:41 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:41 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:41 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:41 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:41 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-29 03:52:41 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:52:46 +0545
+
+SyntaxError (/home/bishisht/work/assembly/visitmee/app/helpers/site_helper.rb:2: formal argument cannot be an instance variable
+	def return_title(@title)
+	                       ^):
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/site_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-29 03:55:56 +0545
+Processing by SiteController#home as HTML
+Geokit is using the domain: localhost
+  Rendered site/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 79ms (Views: 78.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-29 03:55:56 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-29 03:55:56 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-29 03:55:56 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-29 03:55:56 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-29 03:55:56 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-29 03:55:56 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-29 03:55:56 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-29 03:55:56 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-29 03:55:56 +0545
+
+
+Started GET "/todo" for 127.0.0.1 at 2014-09-29 03:56:01 +0545
+
+ActionController::RoutingError (No route matches [GET] "/todo"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/bishisht/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.5ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (45.0ms)
+  Rendered /home/bishisht/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (109.2ms)
+
+
+Started GET "/site/todo" for 127.0.0.1 at 2014-09-29 03:56:09 +0545
+Processing by SiteController#todo as HTML
+Geokit is using the domain: localhost
+  Rendered site/todo.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 149ms (Views: 147.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-29 03:56:09 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:09 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:09 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:09 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:09 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:09 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:09 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:09 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:09 +0545
+
+
+Started GET "/site/todo" for 127.0.0.1 at 2014-09-29 03:56:37 +0545
+Processing by SiteController#todo as HTML
+Geokit is using the domain: localhost
+  Rendered site/todo.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 85ms (Views: 83.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-29 03:56:37 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:38 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:38 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:38 +0545
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:38 +0545
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:38 +0545
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:38 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:38 +0545
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-09-29 03:56:38 +0545

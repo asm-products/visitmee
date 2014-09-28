@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Visitmee</title>
+  <title>    
+  Visitmee
+  </title>
   <%= stylesheet_link_tag    'bootstrap',   media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 <div class="container">
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
 	<div class="nav">
-		<%= link_to "Home", :controller => 'site', :action => 'home' %> |
+		<%= link_to "Home", :controller => "site", :action => 'home' %> |
 		<%= link_to "About Us", :controller => 'site', :action => 'about' %> |
 		<%= link_to "FAQ", :controller => 'site', :action => 'faq' %> |
 
@@ -27,11 +27,16 @@
 
     </div>
   <% else %>
-    <%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %> |
-    <%= link_to "Sign in with Twitter", "/auth/twitter", id: "sign_in" %>
+    <%= link_to "Sign in with Facebook", "/auth/facebook/", id: "sign_in" %> |
+    <%= link_to "Sign in with Twitter", "/auth/twitter/"%>
   <% end %>
 </div>
-
+<% if notice %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
 
 	<%= yield %>
 	<footer>visitMee || cheapest way to travel</footer>	

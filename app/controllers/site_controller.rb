@@ -8,4 +8,8 @@ class SiteController < ApplicationController
 
   def faq
   end
+
+  def todo
+  	@title = "To Do List "
+  end
 end
