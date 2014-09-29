@@ -10,13 +10,7 @@
 </head>
 <body>
 <div class="container">
-	<div class="nav">
-		<%= link_to "Home", :controller => "site", :action => 'home' %> |
-		<%= link_to "About Us", :controller => 'site', :action => 'about' %> |
-		<%= link_to "FAQ", :controller => 'site', :action => 'faq' %> |
-    <%= link_to "To Do", :controller => 'site', :action => 'todo' %>
 
-	</div>
 
 	<div id="user-widget">
   <% if current_user %>
