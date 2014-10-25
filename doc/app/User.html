@@ -90,6 +90,8 @@
 
   <section class="description">
     
+<p>Main user model.</p>
+
   </section>
 
   
@@ -150,7 +152,7 @@
 
           
           <div class="method-source-code" id="find_for_oauth-source">
-            <pre><span class="ruby-comment"># File app/models/user.rb, line 14</span>
+            <pre><span class="ruby-comment"># File app/models/user.rb, line 16</span>
 <span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">find_for_oauth</span>(<span class="ruby-identifier">auth</span>, <span class="ruby-identifier">signed_in_resource</span> = <span class="ruby-keyword">nil</span>)
 
   <span class="ruby-comment"># Get the identity and user if they exist</span>
@@ -229,7 +231,7 @@
 
           
           <div class="method-source-code" id="email_verified-3F-source">
-            <pre><span class="ruby-comment"># File app/models/user.rb, line 56</span>
+            <pre><span class="ruby-comment"># File app/models/user.rb, line 58</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">email_verified?</span>
   <span class="ruby-keyword">self</span>.<span class="ruby-identifier">email</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">email</span> <span class="ruby-operator">!~</span> <span class="ruby-constant">TEMP_EMAIL_REGEX</span>
 <span class="ruby-keyword">end</span></pre>

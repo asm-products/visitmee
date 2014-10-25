@@ -90,6 +90,8 @@
 
   <section class="description">
     
+<p>Omniauth plugin controller</p>
+
   </section>
 
   
@@ -124,13 +126,13 @@
 
         <div class="method-description">
           
-          
+          <p>Provides callback for providers (eg. facebook,twitter, etc.)</p>
           
           
 
           
           <div class="method-source-code" id="provides_callback_for-source">
-            <pre><span class="ruby-comment"># File app/controllers/omniauth_callbacks_controller.rb, line 2</span>
+            <pre><span class="ruby-comment"># File app/controllers/omniauth_callbacks_controller.rb, line 4</span>
 <span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">provides_callback_for</span>(<span class="ruby-identifier">provider</span>)
   <span class="ruby-identifier">class_eval</span> <span class="ruby-node">%Q{
     def #{provider}
@@ -188,7 +190,7 @@
 
           
           <div class="method-source-code" id="after_sign_in_path_for-source">
-            <pre><span class="ruby-comment"># File app/controllers/omniauth_callbacks_controller.rb, line 22</span>
+            <pre><span class="ruby-comment"># File app/controllers/omniauth_callbacks_controller.rb, line 24</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">after_sign_in_path_for</span>(<span class="ruby-identifier">resource</span>)
   <span class="ruby-keyword">if</span> <span class="ruby-identifier">resource</span>.<span class="ruby-identifier">email_verified?</span>
     <span class="ruby-keyword">super</span> <span class="ruby-identifier">resource</span>

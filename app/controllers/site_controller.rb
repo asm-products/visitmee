@@ -1,3 +1,4 @@
+# Site controller.
 class SiteController < ApplicationController
   def home
   	# @ip=request.remote_ip()
@@ -9,7 +10,4 @@ class SiteController < ApplicationController
   def faq
   end
 
-  def todo
-  	@title = "To Do List "
-  end
 end

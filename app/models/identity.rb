@@ -1,3 +1,4 @@
+# Modelling identity for user.
 class Identity < ActiveRecord::Base
   belongs_to :user
   validates_presence_of :uid, :provider

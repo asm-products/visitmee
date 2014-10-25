@@ -88,6 +88,8 @@
 
   <section class="description">
     
+<p>Controller methods that is available in all controllers.</p>
+
   </section>
 
   
@@ -122,13 +124,14 @@
 
         <div class="method-description">
           
-          
+          <p><a href="User.html">User</a> verification. Forces user to verify their
+email address.</p>
           
           
 
           
           <div class="method-source-code" id="ensure_signup_complete-source">
-            <pre><span class="ruby-comment"># File app/controllers/application_controller.rb, line 4</span>
+            <pre><span class="ruby-comment"># File app/controllers/application_controller.rb, line 7</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">ensure_signup_complete</span>
   <span class="ruby-comment"># Ensure we don&#39;t go into an infinite loop</span>
   <span class="ruby-keyword">return</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">action_name</span> <span class="ruby-operator">==</span> <span class="ruby-string">&#39;finish_signup&#39;</span>

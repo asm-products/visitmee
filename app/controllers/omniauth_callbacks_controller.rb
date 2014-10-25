@@ -1,4 +1,6 @@
+# Omniauth plugin controller
 class OmniauthCallbacksController < Devise::OmniauthCallbacksController
+  # Provides callback for providers (eg. facebook,twitter, etc.)
   def self.provides_callback_for(provider)
     class_eval %Q{
       def #{provider}

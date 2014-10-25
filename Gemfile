@@ -1,4 +1,5 @@
-source 'https://rubygems.org'
+# source 'https://rubygems.org'
+source :rubygems
 
 
 # ruby '1.9.3p484'
@@ -60,4 +61,7 @@ gem 'omniauth-linkedin'
 
 gem 'geokit-rails'
 
-gem 'better_errors'
+#gem 'better_errors'
+
+gem 'redcarpet', '~> 2.1.1'
+gem 'nokogiri'

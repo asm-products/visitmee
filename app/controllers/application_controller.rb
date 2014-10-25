@@ -1,6 +1,9 @@
+# Controller methods that is available in all controllers.
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
+
+  # User verification. Forces user to verify their email address.
   def ensure_signup_complete
     # Ensure we don't go into an infinite loop
     return if action_name == 'finish_signup'
@@ -13,6 +16,7 @@ class ApplicationController < ActionController::Base
   end
 
   private
+
   def current_user
     @current_user ||= User.find(session[:user_id]) if session[:user_id]
   end

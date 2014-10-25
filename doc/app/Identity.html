@@ -88,6 +88,8 @@
 
   <section class="description">
     
+<p>Modelling identity for user.</p>
+
   </section>
 
   
@@ -128,7 +130,7 @@
 
           
           <div class="method-source-code" id="find_for_oauth-source">
-            <pre><span class="ruby-comment"># File app/models/identity.rb, line 6</span>
+            <pre><span class="ruby-comment"># File app/models/identity.rb, line 7</span>
 <span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">find_for_oauth</span>(<span class="ruby-identifier">auth</span>)
       <span class="ruby-identifier">find_or_create_by</span>(<span class="ruby-identifier">uid</span><span class="ruby-operator">:</span> <span class="ruby-identifier">auth</span>.<span class="ruby-identifier">uid</span>, <span class="ruby-identifier">provider</span><span class="ruby-operator">:</span> <span class="ruby-identifier">auth</span>.<span class="ruby-identifier">provider</span>)
 <span class="ruby-keyword">end</span></pre>
