@@ -3,6 +3,7 @@ class PackageController < ApplicationController
 	
 	# Show the package details.
 	def show
+		@package=Package.all()
 	end
 
 	# Show a form page where travellers can post what they need.

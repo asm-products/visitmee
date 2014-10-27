@@ -67,17 +67,7 @@
 
     
     
-    <!-- Method Quickref -->
-<div id="method-list-section" class="nav-section">
-  <h3>Methods</h3>
-
-  <ul class="link-list" role="directory">
     
-    <li ><a href="#method-c-find_for_oauth">::find_for_oauth</a>
-    
-  </ul>
-</div>
-
   </div>
 </nav>
 
@@ -88,8 +78,6 @@
 
   <section class="description">
     
-<p>Modelling user profile.</p>
-
   </section>
 
   
@@ -105,47 +93,6 @@
     
 
     
-     <section id="public-class-5Buntitled-5D-method-details" class="method-section">
-       <header>
-         <h3>Public Class Methods</h3>
-       </header>
-
-    
-      <div id="method-c-find_for_oauth" class="method-detail ">
-        
-        <div class="method-heading">
-          <span class="method-name">find_for_oauth</span><span
-            class="method-args">(auth)</span>
-          
-          <span class="method-click-advice">click to toggle source</span>
-          
-        </div>
-        
-
-        <div class="method-description">
-          
-          
-          
-          
-
-          
-          <div class="method-source-code" id="find_for_oauth-source">
-            <pre><span class="ruby-comment"># File app/models/profile.rb, line 7</span>
-<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">find_for_oauth</span>(<span class="ruby-identifier">auth</span>)
-      <span class="ruby-identifier">find_or_create_by</span>(<span class="ruby-identifier">uid</span><span class="ruby-operator">:</span> <span class="ruby-identifier">auth</span>.<span class="ruby-identifier">uid</span>, <span class="ruby-identifier">provider</span><span class="ruby-operator">:</span> <span class="ruby-identifier">auth</span>.<span class="ruby-identifier">provider</span> )
-<span class="ruby-keyword">end</span></pre>
-          </div>
-          
-        </div>
-
-        
-
-        
-      </div>
-
-    
-    </section>
-  
   </section>
 </main>
 

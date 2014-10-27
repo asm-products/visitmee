@@ -67,17 +67,7 @@
 
     
     
-    <!-- Method Quickref -->
-<div id="method-list-section" class="nav-section">
-  <h3>Methods</h3>
-
-  <ul class="link-list" role="directory">
     
-    <li ><a href="#method-i-ensure_signup_complete">#ensure_signup_complete</a>
-    
-  </ul>
-</div>
-
   </div>
 </nav>
 
@@ -105,55 +95,6 @@
     
 
     
-     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
-       <header>
-         <h3>Public Instance Methods</h3>
-       </header>
-
-    
-      <div id="method-i-ensure_signup_complete" class="method-detail ">
-        
-        <div class="method-heading">
-          <span class="method-name">ensure_signup_complete</span><span
-            class="method-args">()</span>
-          
-          <span class="method-click-advice">click to toggle source</span>
-          
-        </div>
-        
-
-        <div class="method-description">
-          
-          <p><a href="User.html">User</a> verification. Forces user to verify their
-email address.</p>
-          
-          
-
-          
-          <div class="method-source-code" id="ensure_signup_complete-source">
-            <pre><span class="ruby-comment"># File app/controllers/application_controller.rb, line 7</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">ensure_signup_complete</span>
-  <span class="ruby-comment"># Ensure we don&#39;t go into an infinite loop</span>
-  <span class="ruby-keyword">return</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">action_name</span> <span class="ruby-operator">==</span> <span class="ruby-string">&#39;finish_signup&#39;</span>
-
-  <span class="ruby-comment"># Redirect to the &#39;finish_signup&#39; page if the user</span>
-  <span class="ruby-comment"># email hasn&#39;t been verified yet</span>
-  <span class="ruby-keyword">if</span> <span class="ruby-identifier">current_user</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-operator">!</span><span class="ruby-identifier">current_user</span>.<span class="ruby-identifier">email_verified?</span>
-    <span class="ruby-identifier">redirect_to</span> <span class="ruby-identifier">finish_signup_path</span>(<span class="ruby-identifier">current_user</span>)
-  <span class="ruby-keyword">end</span>
-<span class="ruby-keyword">end</span></pre>
-          </div>
-          
-        </div>
-
-        
-
-        
-      </div>
-
-    
-    </section>
-  
   </section>
 </main>
 
