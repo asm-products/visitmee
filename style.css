@@ -31,6 +31,7 @@ a:hover {
 html,
 body {
   height: 100%;
+  margin: 10px;
 }
 
 body {
